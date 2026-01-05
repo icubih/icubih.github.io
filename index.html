@@ -1,68 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <title>ICUBIH Apps</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>icubih apps</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f6f8fa;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-    }
-    .app {
-      background: #fff;
-      border-radius: 10px;
-      padding: 16px;
-      margin: 15px auto;
-      max-width: 500px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-    }
-    .app h2 {
-      margin: 0 0 8px;
-    }
-    .app p {
-      margin: 0 0 12px;
-      color: #555;
-    }
-    .btn {
-      display: inline-block;
-      padding: 10px 18px;
-      background: #2da44e;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-    }
+    body { font-family: system-ui, Arial, sans-serif; margin: 20px; }
+    a { color: inherit; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { list-style: none; padding-left: 18px; margin: 6px 0; }
+    li { margin: 6px 0; }
+    .folder::before { content: "📁 "; }
+    .file::before { content: "📄 "; }
   </style>
 </head>
 <body>
 
-<h1>📱 ICUBIH Apps</h1>
+<h3>icubih.github.io</h3>
 
-<div class="app">
-  <h2>ICUBIH</h2>
-  <p>Ứng dụng ICUBIH – phiên bản Android</p>
-  <a class="btn"
-     href="href="https://github.com/icubih/app/releases/download/v1.0.0/icubih.apk"">
-     ⬇ Tải APK
-  </a>
-</div>
+<ul>
+  <li class="folder">apps
+    <ul>
+      <li class="folder"><a href="https://github.com/icubih/app/releases/download/v1.0.0/icubih.apk">ICUBIH</a></li>
+      <li class="folder"><a href="LINK_APP_2">ICU Calculator</a></li>
+    </ul>
+  </li>
 
-<div class="app">
-  <h2>ICUBIH Calculator</h2>
-  <p>Công cụ tính toán hỗ trợ ICU</p>
-  <a class="btn"
-     href="LINK_APK_APP_2">
-     ⬇ Tải APK
-  </a>
-</div>
-
-<!-- Copy khối <div class="app"> để thêm app mới -->
+  <li class="file"><a href="https://github.com/icubih">github</a></li>
+</ul>
 
 </body>
 </html>
